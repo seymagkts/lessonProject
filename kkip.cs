@@ -14,8 +14,8 @@ namespace proje
 {
     public partial class Form1 : Form
     {
-        // Database baglanti parametresinin guncellenmesi gerekmektedir. Kendi bilgisayarimdaki database'e baglaniyor.
-        SqlConnection baglan = new SqlConnection(@"Server=DESKTOP-L5EBS4A\SGOKTAS; Initial Catalog=projee; Integrated Security= SSPI");
+        
+        SqlConnection baglan = new SqlConnection(@"Server=serveradi; Initial Catalog=projee; Integrated Security= SSPI");
 
         SqlCommand komut;
         SqlDataAdapter getir;
